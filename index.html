@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+    <div id="team-list-div">
+      <h2>TEAM: </h2> 
+    </div>
+
+    <div id="team-balance-div">
+      <h3>Team Balance:</h3>
+    </div>  
+
+    <div id="team-bill-div">
+      <form action="" id="team-bill-form">
+        <ul>
+          <li>
+            <input type="text" name="amount" placeholder="Enter bill amount">
+            <button type="submit" id="team-bill-btn">Record Bill</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+      
+    <div id="team-pay-div">
+      <form action="" id="team-pay-form">
+        <ul>
+          <li>
+            <input type="text" name="amount" placeholder="Enter payment amount">
+            <button type="submit" id="team-pay-btn">Record Payment</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div id="add-player-div">
+      <h3>Add a player:</h3>
+      <form  action="" id="add-player-form">
+      <ul>
+        <li>
+          <label for="name">Name:</label><br><br>
+          <input type="text" id="name" name="user_name" placeholder="name" required>
+        </li>
+        <br><br>
+        <li>
+          <label for="mail">E-mail:</label><br><br>
+          <input type="email" id="mail" name="user_email" placeholder="email" required>
+        </li>
+      </ul><br>
+      <button tpye="submit" id="add-player-btn">ADD PLAYER</button> 
+      </form>
+    </div>
+    
+  <script src="app.js"></script>
+</body>
+</html>
